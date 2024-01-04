@@ -1,0 +1,21 @@
+ElevatedButton(
+                  onPressed: () {},
+                  child: Text(category[index]),
+                );
+children: [
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Image(image: AssetImage("assets/icons/stopwatch.png")),
+                    Text("30 MINS POLICY")
+                  ],
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [FaIcon(FontAwesomeIcons.phone), Text("TRACABILITY")],
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [FaIcon(FontAwesomeIcons.stopwatch), Text("LOCAL SOURCING")],
+                )
+              ],
